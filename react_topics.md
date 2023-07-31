@@ -1,8 +1,3 @@
-Immutability
-Array immutability
-State with arrays
-Object immutability
-State with objects
 Basic forms
 Accessible forms
 Create react app
