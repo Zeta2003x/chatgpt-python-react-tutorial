@@ -16,9 +16,8 @@ response = openai.ChatCompletion.create(
   max_tokens=500
 )
 
-
 index = utils.get_highest_number_in_folder("./topics")
-file_path = f'./topics/{index}. {topic}.md'
+file_path = f'./topics/{index + 1}. {topic}.md'
 content = response.choices[0]["message"]["content"]
 print(f'ChatGPT response:\n{content}')
 

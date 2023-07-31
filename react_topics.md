@@ -1,5 +1,3 @@
-Pure functions
-JSX advanced
 Array destructuring
 State with Hooks
 Changing state
