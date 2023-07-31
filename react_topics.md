@@ -1,4 +1,3 @@
-State with Hooks
 Changing state
 Closures
 Events
