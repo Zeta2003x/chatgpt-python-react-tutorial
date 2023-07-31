@@ -1,6 +1,3 @@
-Conditional state change
-Conditional rendering
-Multiple states
 Immutability
 Array immutability
 State with arrays

@@ -23,7 +23,7 @@ def main():
 
     utils.write_to_md_file(file_path, content)
     utils.erase_first_line('react_topics.md')
-
+    return f"Created tutorial: {file_path}"
 
 if __name__ == '__main__':
     main()

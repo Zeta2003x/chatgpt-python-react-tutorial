@@ -1,4 +1,5 @@
 import index
 
 while True:
-    index.main()
+    tutorial = index.main()
+    print(tutorial, end="\n\n")
