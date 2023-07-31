@@ -1,4 +1,3 @@
-Basic forms
 Accessible forms
 Create react app
 Passing functions
