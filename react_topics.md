@@ -1,6 +1,3 @@
-Changing state
-Closures
-Events
 Conditional state change
 Conditional rendering
 Multiple states
