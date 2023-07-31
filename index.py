@@ -8,7 +8,7 @@ def main():
 
     openai.api_key = environ.get('OPENAI_API_KEY')
 
-    topic = utils.read_and_erase_first_line('react_topics.md')
+    topic = utils.read_first_line('react_topics.md')
 
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
@@ -22,3 +22,8 @@ def main():
     print(f'ChatGPT response:\n{content}')
 
     utils.write_to_md_file(file_path, content)
+    utils.erase_first_line('react_topics.md')
+
+
+if __name__ == '__main__':
+    main()

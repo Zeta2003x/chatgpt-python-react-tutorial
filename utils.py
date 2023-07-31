@@ -14,12 +14,17 @@ def get_highest_number_in_folder(folder_path):
     
     return highest_number
 
-def read_and_erase_first_line(file_path):
+def read_first_line(file_path):
     try:
         # Read the first line from the file
         with open(file_path, 'r') as file:
             first_line = file.readline().strip()
-
+        return first_line
+    except FileNotFoundError:
+        return None
+    
+def erase_first_line(file_path):
+    try:
         # Erase the first line from the file by reading the rest of the lines
         with open(file_path, 'r') as file:
             lines = file.readlines()
@@ -28,9 +33,6 @@ def read_and_erase_first_line(file_path):
         with open(file_path, 'w') as file:
             for line in lines[1:]:
                 file.write(line)
-
-        return first_line
-
     except FileNotFoundError:
         return None
     
