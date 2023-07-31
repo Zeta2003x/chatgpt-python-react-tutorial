@@ -1,3 +1,5 @@
+Pure functions
+JSX advanced topics
 Array destructuring
 State with Hooks
 Changing state
@@ -43,8 +45,7 @@ Refactoring to useFetch
 Refs
 Context
 Update context
-JSX Advanced II
-Misc concepts
+Miscellaneous concepts
 Deploying to Netlify
 Introduction to react router
 React router URL params
@@ -57,7 +58,8 @@ Intro to class components
 Intro to Preact
 React Lazy
 Intro to testing (lessons)
-Intro to redux
+Intro to Redux
 Intro to Redux Toolkit
 Intro to React Redux
-Refactor SuperM to redux
+Refactor SuperM to Redux
+Redux advanced
