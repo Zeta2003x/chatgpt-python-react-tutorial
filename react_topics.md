@@ -1,6 +1,3 @@
-Pure functions
-JSX advanced topics
-Array destructuring
 State with Hooks
 Changing state
 Closures
