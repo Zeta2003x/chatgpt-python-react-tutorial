@@ -1,5 +1,4 @@
 Accessible forms
-Create react app
 Passing functions
 Lifting state up
 Refactoring components
@@ -31,19 +30,29 @@ Context
 Update context
 Miscellaneous concepts
 Deploying to Netlify
-Introduction to react router
+React router
 React router URL params
 React router nested routes
 React router advanced
 Stripe Checkout integration
-Refactor SuperM to context
-SuperM Dark theme
-Intro to class components
-Intro to Preact
+Light and Dark theme
+Class Components
+Preact
 React Lazy
-Intro to testing (lessons)
-Intro to Redux
-Intro to Redux Toolkit
-Intro to React Redux
-Refactor SuperM to Redux
+Suspense
+Testing
+Vitest
+Redux
+Redux Toolkit
+React Redux
 Redux advanced
+Portal
+ForwardRef
+Error Boundaries
+Different ways to include CSS
+Typescript props
+Typescript useState
+Typescript useContext
+Typescript useEffect
+Typescript useReducer
+UseTransition
