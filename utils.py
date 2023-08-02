@@ -54,6 +54,6 @@ def write_to_md_file(file_path, content):
     try:
         with open(file_path, 'w') as file:
             file.write(content)
-        print(f"Content successfully written to {file_path}.")
+        print(f"Content successfully written to '{file_path}'")
     except Exception as e:
         print(f"An error occurred: {e}")

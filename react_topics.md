@@ -1,12 +1,3 @@
-Accessible forms
-Passing functions
-Lifting state up
-Refactoring components
-React dev tools
-Functional state update
-Effect hook
-Effect with cleanup
-Effect dependencies
 Effect & state
 Effect, state & events
 Effect performance
