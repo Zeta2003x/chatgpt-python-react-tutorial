@@ -13,7 +13,7 @@ def main():
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[{"role": "user", "content": f"Resume this React topic in less than 750 words, show me the problem it solves, and show me an example in code: {topic}"}],
-        max_tokens=800
+        max_tokens=1000
     )
 
     index = utils.get_highest_number_in_folder("./topics")
